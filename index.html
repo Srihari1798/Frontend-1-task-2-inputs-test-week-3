@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="multiple-inputs.png">
+    <meta name="description" content="Weekend contest task 2 inputs test">
+    <title>Srihari Nampally Frontend 1 AccioJob 21 January 2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="mailto:sriharinampally123@gmail.com">
+
+        <div class="form" id="forms-container">
+            <div class="left">
+                <div id="text-container">
+                    <label for="text field" id="field">Text Field
+                        <span id="sp">*</span>
+                    </label><br>
+
+                    <input type="text" id="text field" placeholder="Input Text">
+                </div>
+                <br><br>
+                <div id="text-container">
+                    <label for="Select field">Select Feild <span><img src="info-icon-png-transparent-7.jpg" alt="logo1"
+                                width="13px"></span> </label><br>
+                    <select name="select-fields" id="select-items">
+                        <option value="select" disabled selected>Select</option>
+                        <option value="1"> 1</option>
+                        <option value="2">2</option>
+                        <option value="3"> 3</option>
+                        <option value="4"> 3</option>
+                        <option value="5"> 3</option>
+                    </select>
+                    <br><br>
+                </div>
+                <div id="text-container">
+                    <label for="Text-area">Text Area <span><img src="info-icon-png-transparent-7.jpg" alt="logo2"
+                                width="13px"></span></label><br>
+                    <textarea id="textarea" rows="4" cols="50" resize="vertical"
+                        value="Enter your text here"></textarea>
+                    <br><br>
+                </div>
+                <div id="text-container">
+                    <label for="text">Text Field with Add-on <span id="sp">*</span></label><br>
+                    <div class="input-box">
+                        <label for="text-input" id="label">Label</label>
+                        <input type="text" class="text-field-addOn" id="text-input" placeholder="Input Text" required>
+                        <button id="btn">Button</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-item rightside">
+              
+                <div class="input-items search-field" id="search">
+                    <div class="search">
+                        <img src="icons8-search-48.png" alt="search" width="15px">
+                    </div>
+                    <input type="text" id="text-input" placeholder="Search">
+                </div>
+               
+                <div class="input-items increment-decrement">
+                    <div class="increment-decrement-item decrement">
+                        <img src="icons8-subtract-24.png" alt="minuslogo" width="15px">
+                    </div>
+                    <div class="increment-decrement-item display">1</div>
+                    <div class="increment-decrement-item increment">
+                        <img src="icons8-plus-math-24.png" alt="pluslogo" width="15px">
+                    </div>
+                </div>
+               
+                <div class="clickable-inputs checkbox">
+                    <input type="checkbox" value="checkbox" checked> Checkbox
+                </div>
+                
+                <div class="clickable-inputs radio" >
+                    <input type="radio" value="radio" checked> Radio Button
+                </div>
+                <div class="clickable-inputs switch-btn">
+                    <div>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                           
+                        </label>
+                        
+                        <p style="color:black">Switch</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </form>
+</body>
+
+</html>
